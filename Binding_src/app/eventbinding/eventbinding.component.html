@@ -1,0 +1,10 @@
+<p>eventbinding works!</p>
+<h2>Press button to generate event</h2>
+<button (click) = "EventHandler()">PRESS</button>
+<button (click) = "EventHandlerNew()">69</button>
+<h1>{{str}}</h1>
+<h1 class="classcolor">
+     <button (click) = "EventHandlerInfo($event)">Event Information Change color</button>
+</h1>
+<div [style.color]="textColor">This text will change color</div>
+<button (click)="changeColor()">Change Color</button>
